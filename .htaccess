@@ -1,0 +1,95 @@
+# ===================================================
+# ADINDA STUDIOS - .htaccess
+# ===================================================
+
+# Nonaktifkan directory listing
+Options -Indexes
+
+# Aktifkan Rewrite Engine
+RewriteEngine On
+
+# ===================================================
+# FORCE HTTPS
+# ===================================================
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# ===================================================
+# HILANGKAN index.html
+# ===================================================
+RewriteCond %{THE_REQUEST} \s/+index\.html [NC]
+RewriteRule ^index\.html$ / [R=301,L]
+
+# ===================================================
+# URL TANPA .html
+# contoh:
+# /about -> about.html
+# /services -> services.html
+# ===================================================
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^([^/.]+)/?$ $1.html [L]
+
+# ===================================================
+# SECURITY HEADERS
+# ===================================================
+<IfModule mod_headers.c>
+
+Header always set X-Content-Type-Options "nosniff"
+
+Header always set X-Frame-Options "SAMEORIGIN"
+
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+
+Header always set X-XSS-Protection "1; mode=block"
+
+</IfModule>
+
+# ===================================================
+# GZIP
+# ===================================================
+<IfModule mod_deflate.c>
+
+AddOutputFilterByType DEFLATE text/html
+
+AddOutputFilterByType DEFLATE text/css
+
+AddOutputFilterByType DEFLATE application/javascript
+
+AddOutputFilterByType DEFLATE application/json
+
+AddOutputFilterByType DEFLATE image/svg+xml
+
+</IfModule>
+
+# ===================================================
+# CACHE
+# ===================================================
+<IfModule mod_expires.c>
+
+ExpiresActive On
+
+ExpiresByType text/css "access plus 30 days"
+
+ExpiresByType application/javascript "access plus 30 days"
+
+ExpiresByType image/jpeg "access plus 1 year"
+
+ExpiresByType image/png "access plus 1 year"
+
+ExpiresByType image/webp "access plus 1 year"
+
+ExpiresByType image/svg+xml "access plus 1 year"
+
+ExpiresByType font/woff2 "access plus 1 year"
+
+</IfModule>
+
+# ===================================================
+# BLOK AKSES FILE SENSITIF
+# ===================================================
+<FilesMatch "^(\.htaccess|\.env|composer\.json|composer\.lock)$">
+    Require all denied
+</FilesMatch>

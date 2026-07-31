@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Tentang Kami | Adinda Studios</title>
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+Adinda <span>Studios</span>
+
+</div>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="services.html">Services</a></li>
+
+<li><a href="portfolio.html">Portfolio</a></li>
+
+<li><a href="pricing.html">Pricing</a></li>
+
+<li><a href="booking.html">Booking</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h1>Tentang Adinda Studios</h1>
+
+<p>
+Mengabadikan setiap momen berharga dengan kualitas profesional dan sentuhan sinematik.
+</p>
+
+</div>
+
+</section>
+
+<section class="about-home">
+
+<div class="container">
+
+<h2>Siapa Kami?</h2>
+
+<p>
+
+Adinda Studios adalah penyedia jasa Photography dan Videography profesional yang berfokus pada dokumentasi Wedding, Prewedding, Studio, Indoor, Outdoor, hingga Cinematic Video.
+
+Kami percaya bahwa setiap momen memiliki cerita. Oleh karena itu, kami menghadirkan hasil foto dan video yang elegan, natural, serta penuh emosi sehingga setiap kenangan dapat dikenang sepanjang masa.
+
+</p>
+
+</div>
+
+</section>
+
+<section class="services-home">
+
+<h2>Mengapa Memilih Kami?</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<i class="fa-solid fa-camera"></i>
+
+<h3>Peralatan Profesional</h3>
+
+<p>
+
+Menggunakan kamera Full Frame, lensa profesional, lighting studio, gimbal, serta drone DJI.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-award"></i>
+
+<h3>Berpengalaman</h3>
+
+<p>
+
+Berpengalaman menangani dokumentasi wedding, studio, acara keluarga hingga perusahaan.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-photo-film"></i>
+
+<h3>Editing Premium</h3>
+
+<p>
+
+Proses editing warna, retouching, dan cinematic dilakukan secara profesional.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-clock"></i>
+
+<h3>Tepat Waktu</h3>
+
+<p>
+
+Kami selalu berusaha menyelesaikan hasil sesuai jadwal yang telah disepakati.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="team-section">
+
+<h2 class="section-title">Meet Our Crew</h2>
+
+<p class="section-subtitle">
+Orang-orang hebat di balik setiap momen yang berhasil kami abadikan.
+</p>
+
+<div class="team-grid">
+
+<div class="team-card">
+
+<div class="team-image">
+
+<img src="assets/images/team/owner.jpg">
+
+<div class="team-social">
+
+<a href="https://instagram.com/username" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-instagram"></i>
+</a>
+
+</div>
+
+</div>
+
+<div class="team-content">
+
+<h3>Nama Owner</h3>
+
+<span>Founder & Lead Photographer</span>
+
+<p>
+Berpengalaman dalam fotografi wedding, studio, dan pengembangan Adinda Studios.
+</p>
+
+</div>
+
+</div>
+
+<div class="team-card">
+
+<div class="team-image">
+
+<img src="assets/images/team/photo1.jpg">
+
+<div class="team-social">
+
+<a href="https://instagram.com/username" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-instagram"></i>
+</a>
+
+</div>
+
+</div>
+
+<div class="team-content">
+
+<h3>Nama Photographer</h3>
+
+<span>Photographer</span>
+
+<p>
+Spesialis dokumentasi indoor, outdoor, wedding dan prewedding.
+</p>
+
+</div>
+
+</div>
+
+<div class="team-card">
+
+<div class="team-image">
+
+<img src="assets/images/team/video1.jpg">
+
+<div class="team-social">
+
+<a href="https://instagram.com/username" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-instagram"></i>
+</a>
+
+</div>
+
+</div>
+
+<div class="team-content">
+
+<h3>Nama Videographer</h3>
+
+<span>Videographer</span>
+
+<p>
+Menghasilkan video cinematic yang emosional dan berkualitas tinggi.
+</p>
+
+</div>
+
+</div>
+
+<div class="team-card">
+
+<div class="team-image">
+
+<img src="assets/images/team/drone.jpg">
+
+<div class="team-social">
+
+<a href="https://instagram.com/username" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-instagram"></i>
+</a>
+
+</div>
+
+</div>
+
+<div class="team-content">
+
+<h3>Nama Drone Pilot</h3>
+
+<span>Drone Pilot</span>
+
+<p>
+Spesialis pengambilan gambar udara menggunakan Drone DJI.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="cta">
+
+<h2>Abadikan Momen Terbaik Bersama Kami</h2>
+
+<p>
+
+Jangan biarkan momen berharga berlalu begitu saja.
+
+</p>
+
+<a href="booking.html" class="btn">
+
+Booking Sekarang
+
+</a>
+
+</section>
+
+<footer>
+
+<h3>Adinda Studios</h3>
+
+<p>
+
+Photography • Videography • Drone DJI
+
+</p>
+
+<div class="social">
+
+<a href="#"><i class="fab fa-facebook"></i></a>
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="#"><i class="fab fa-youtube"></i></a>
+
+<a href="#"><i class="fab fa-tiktok"></i></a>
+
+</div>
+
+<p>
+
+© 2026 Adinda Studios
+
+</p>
+
+</footer>
+
+<a href="https://wa.me/6287770800032" class="wa">
+
+<i class="fab fa-whatsapp"></i>
+
+</a>
+
+<script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Booking | Adinda Studios</title>
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+Adinda <span>Studios</span>
+
+</div>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="services.html">Services</a></li>
+
+<li><a href="portfolio.html">Portfolio</a></li>
+
+<li><a href="pricing.html">Pricing</a></li>
+
+<li><a href="booking.html" class="active">Booking</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h1>Booking Sekarang</h1>
+
+<p>
+
+Isi formulir di bawah ini, kemudian klik tombol kirim.
+
+</p>
+
+</div>
+
+</section>
+
+<section class="contact">
+
+<div class="contact-box">
+
+<div>
+
+<h2>Informasi Booking</h2>
+
+<p>
+
+Silakan isi data dengan benar agar kami dapat menghubungi Anda.
+
+</p>
+
+<br>
+
+<p>
+
+<i class="fa-solid fa-phone"></i>
+
+087770800032
+
+</p>
+
+<br>
+
+<p>
+
+<i class="fa-solid fa-camera"></i>
+
+Photography & Videography Professional
+
+</p>
+
+</div>
+
+<div>
+
+<form onsubmit="event.preventDefault();kirimBooking();">
+
+<input
+type="text"
+id="nama"
+placeholder="Nama Lengkap"
+required>
+
+<input
+type="tel"
+id="hp"
+placeholder="Nomor WhatsApp"
+required>
+
+<select
+id="layanan"
+required>
+
+<option value="Studio Photography">
+
+Studio Photography
+
+</option>
+
+<option value="Wedding Photography">
+
+Wedding Photography
+
+</option>
+
+<option value="Prewedding">
+
+Prewedding
+
+</option>
+
+<option value="Outdoor Photography">
+
+Outdoor Photography
+
+</option>
+
+<option value="Indoor Photography">
+
+Indoor Photography
+
+</option>
+
+<option value="Wedding Videography">
+
+Wedding Videography
+
+</option>
+
+<option value="Cinematic Video">
+
+Cinematic Video
+
+</option>
+
+<option value="Drone DJI">
+
+Drone DJI
+
+</option>
+
+</select>
+
+<input
+type="date"
+id="tanggal"
+required>
+
+<input
+type="text"
+id="lokasi"
+placeholder="Lokasi Acara"
+required>
+
+<textarea
+id="catatan"
+placeholder="Catatan Tambahan"></textarea>
+
+<button
+type="submit"
+class="btn">
+
+<i class="fab fa-whatsapp"></i>
+
+Kirim ke WhatsApp
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="cta">
+
+<h2>Terima kasih telah memilih Adinda Studios</h2>
+
+<p>
+
+Kami akan membalas pesan Anda secepat mungkin.
+
+</p>
+
+<a
+href="portfolio.html"
+class="btn">
+
+Lihat Portfolio
+
+</a>
+
+</section>
+
+<footer>
+
+<h3>Adinda Studios</h3>
+
+<p>
+
+Photography • Videography • Drone DJI
+
+</p>
+
+<div class="social">
+
+<a href="#"><i class="fab fa-facebook"></i></a>
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="#"><i class="fab fa-youtube"></i></a>
+
+<a href="#"><i class="fab fa-tiktok"></i></a>
+
+</div>
+
+<p>
+
+© 2026 Adinda Studios
+
+</p>
+
+</footer>
+
+<a
+href="https://wa.me/6287770800032"
+class="wa">
+
+<i class="fab fa-whatsapp"></i>
+
+</a>
+
+<script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
